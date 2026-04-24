@@ -1,8 +1,8 @@
-# Análisis exploratorio de evaluaciones preoperatorias
+# Evaluación Preoperatoria — Análisis y Predicción de Riesgo Anestésico
 
-Este repositorio contiene el desarrollo de un análisis exploratorio de datos (EDA) sobre evaluaciones preoperatorias, realizado como proyecto final del curso de Data Analytics / Data Science (Coderhouse).
+Este repositorio contiene el desarrollo de dos entregas del curso de Data Science (Coderhouse), ambas basadas en un dataset de evaluaciones preoperatorias. 
 
-El objetivo del análisis es caracterizar el riesgo anestésico de los pacientes a partir de variables clínicas relevantes, tales como la clasificación ASA, la edad, el sexo, la capacidad funcional, las comorbilidades y el tipo de cirugía.
+El objetivo general es caracterizar y predecir el riesgo anestésico de los pacientes a partir de variables clínicas relevantes: clasificación ASA, edad, sexo, capacidad funcional, comorbilidades y tipo de cirugía.
 
 ## 📁 Estructura del repositorio
 
@@ -12,6 +12,9 @@ El objetivo del análisis es caracterizar el riesgo anestésico de los pacientes
 - `Porticella_EvaluacionPreoperatoria_Coderhouse.ipynb`  
   Notebook en Python con el análisis exploratorio de datos y visualizaciones.
 
+- `Porticella_EvaluacionPreoperatoria_ML_Coderhouse.ipynb`
+  Entrega 2 — Entrenamiento y optimización de modelos de Machine Learning para predecir riesgo anestésico elevado (ASA III–IV). Incluye ingeniería de atributos, validación cruzada, GridSearchCV y simulación clínica con casos ficticios.
+ 
 - `README.md`  
   Descripción general del proyecto.
 
@@ -31,7 +34,7 @@ El análisis está orientado a:
 - Equipos de anestesia y cirugía (planificación de recursos)  
 - Gestión hospitalaria y análisis de riesgo preoperatorio  
 
-Los datos corresponden a un único centro, por lo que los resultados reflejan su casuística particular y no deben extrapolarse sin validación adicional.
+El dataset fue anonimizado y contiene datos sintéticos generados con fines académicos. Los resultados no deben extrapolarse a la práctica.
 
 ## ▶️ Reproducibilidad
 
